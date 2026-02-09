@@ -20,7 +20,7 @@ export default function Index() {
             <Text style={{ ...styles.title, width: width - 108 }}>Find and rent car in easy steps.</Text>
 
 
-            <Pressable style={styles.button} onPress={() => router.push("/(tabs)")}>
+            <Pressable style={styles.button} onPress={() => router.push("/signin")}>
               <Text style={{ color: "white", fontSize: 18, fontWeight: "bold", textAlign: "center" }}>{`Let's Go`}</Text>
             </Pressable>
           </View>

@@ -35,7 +35,7 @@ export const layoutTheme = {
 
         background: {
             primary: "#FFFFFF",
-            secondary: "#F5F5F5",
+            secondary: "#FF5C00",
             black: "#000000",
             white: "#FFFFFF",
             soft: "#F0ECEC",
