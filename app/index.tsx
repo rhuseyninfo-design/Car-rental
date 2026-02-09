@@ -1,5 +1,6 @@
 import { ImageBackground } from "expo-image";
 import { Redirect, router } from "expo-router";
+import React from "react";
 import { Pressable, StyleSheet, Text, useWindowDimensions, View } from "react-native";
 
 export default function Index() {
@@ -18,8 +19,8 @@ export default function Index() {
           <View style={styles.content}>
             <Text style={{ ...styles.title, width: width - 108 }}>Find and rent car in easy steps.</Text>
 
-            {/* Let's Go Button */}
-            <Pressable style={styles.button} onPress={()=> router.push("/(tabs)")}>
+
+            <Pressable style={styles.button} onPress={() => router.push("/(tabs)")}>
               <Text style={{ color: "white", fontSize: 18, fontWeight: "bold", textAlign: "center" }}>{`Let's Go`}</Text>
             </Pressable>
           </View>
